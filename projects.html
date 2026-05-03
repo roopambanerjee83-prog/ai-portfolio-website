@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio | Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="background-wrapper">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <i data-lucide="cpu" class="logo-icon"></i>
+                <span>AIPortfolio</span>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="capabilities.html" class="nav-item">
+                    <i data-lucide="brain-circuit"></i>
+                    <span>Neural Networks</span>
+                </a>
+                <a href="capabilities.html" class="nav-item">
+                    <i data-lucide="bot"></i>
+                    <span>Generative AI</span>
+                </a>
+                <a href="projects.html" class="nav-item active">
+                    <i data-lucide="bar-chart-3"></i>
+                    <span>Data Analytics</span>
+                </a>
+                <a href="capabilities.html" class="nav-item">
+                    <i data-lucide="shield-check"></i>
+                    <span>AI Security</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <nav class="top-nav">
+                    <a href="capabilities.html">Solutions <i data-lucide="chevron-down" class="small-icon"></i></a>
+                    <a href="capabilities.html">Capabilities</a>
+                    <a href="projects.html" style="color: var(--text-primary);">Projects</a>
+                    <a href="documentation.html">Documentation</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="index.html" class="btn-text">Go Back</a>
+                    <a href="mailto:contact@aiportfolio.com" class="btn-primary glow-button">Hire Me</a>
+                </div>
+            </header>
+
+            <!-- Projects Section -->
+            <div class="hero-section" style="justify-content: flex-start; margin-top: 50px;">
+                <div class="hero-content">
+                    <h1 class="hero-title" style="font-size: 48px;">Recent Projects</h1>
+                    <p class="hero-subtitle">
+                        Here are some of the cutting-edge AI implementations and data analytics dashboards I have built recently. 
+                    </p>
+                    <div style="display: flex; gap: 20px;">
+                        <div class="glass-panel" style="padding: 20px;">
+                            <h3 style="color: var(--accent-cyan); margin-bottom: 10px;">Predictive Maintenance</h3>
+                            <p style="color: var(--text-secondary); font-size: 14px;">An ML model predicting hardware failure with 98% accuracy.</p>
+                        </div>
+                        <div class="glass-panel" style="padding: 20px;">
+                            <h3 style="color: var(--accent-cyan); margin-bottom: 10px;">NLP Chatbot</h3>
+                            <p style="color: var(--text-secondary); font-size: 14px;">A fully integrated generative AI assistant for customer support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
