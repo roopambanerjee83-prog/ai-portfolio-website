@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio | Capabilities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="background-wrapper">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <i data-lucide="cpu" class="logo-icon"></i>
+                <span>AIPortfolio</span>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="capabilities.html" class="nav-item active">
+                    <i data-lucide="brain-circuit"></i>
+                    <span>Neural Networks</span>
+                </a>
+                <a href="capabilities.html" class="nav-item">
+                    <i data-lucide="bot"></i>
+                    <span>Generative AI</span>
+                </a>
+                <a href="projects.html" class="nav-item">
+                    <i data-lucide="bar-chart-3"></i>
+                    <span>Data Analytics</span>
+                </a>
+                <a href="capabilities.html" class="nav-item">
+                    <i data-lucide="shield-check"></i>
+                    <span>AI Security</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <nav class="top-nav">
+                    <a href="capabilities.html" style="color: var(--text-primary);">Solutions <i data-lucide="chevron-down" class="small-icon"></i></a>
+                    <a href="capabilities.html" style="color: var(--text-primary);">Capabilities</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="documentation.html">Documentation</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="index.html" class="btn-text">Go Back</a>
+                    <a href="mailto:contact@aiportfolio.com" class="btn-primary glow-button">Hire Me</a>
+                </div>
+            </header>
+
+            <!-- Capabilities Section -->
+            <div class="hero-section" style="justify-content: flex-start; margin-top: 50px;">
+                <div class="hero-content">
+                    <h1 class="hero-title" style="font-size: 48px;">AI Capabilities</h1>
+                    <p class="hero-subtitle">
+                        My expertise spans multiple domains of Artificial Intelligence, ensuring end-to-end delivery of smart applications.
+                    </p>
+                    <ul style="color: var(--text-secondary); line-height: 2; font-size: 18px; list-style-position: inside;">
+                        <li>Deep Learning & Neural Networks</li>
+                        <li>Large Language Models (LLMs) & RAG</li>
+                        <li>Computer Vision & Image Processing</li>
+                        <li>Data Engineering & MLOps</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
